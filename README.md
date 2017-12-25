@@ -2,7 +2,7 @@
                                             Store, Create and Populate
 										
 
-Pass the resource/address to the function to fetch the result existed eleswhere on a resource. Store the data in an associative array of values.
+Pass the resource/address to the function to fetch the result existed elsewhere on a resource. Store the data in an associative array of values.
 
 Iterate through the array of values execute a function to store the values into a database.
 
