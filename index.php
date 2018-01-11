@@ -2,8 +2,6 @@
 	include_once("databaseConnection.php");
 	include_once("pagination.php");
 	include_once("fetch.php");
-	
-
 ?>
 
 <?php 
