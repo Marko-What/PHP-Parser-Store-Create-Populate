@@ -1,5 +1,5 @@
                                                 Simple PHP Parser 
-                                            Store, Create and Populate, Datatables and pagination
+                              Store, Create and Populate, Datatables and pagination
 										
 
 Pass the resource/address to the function to fetch the result existed elsewhere on a resource. Store the data in an associative array of values.
