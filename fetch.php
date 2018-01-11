@@ -1,13 +1,11 @@
 <?php
 	include_once("databaseConnection.php");
-	
 ?>
 
 <?php 
 	
 	/* on find button submit*/
 	if($_POST['find']){ 
-		
 
 		if($_POST['selectSearch'] == "name"){ 
 			$AndCompare = "NameSurname.name";
