@@ -1,27 +1,3 @@
-/*confirm('ready');*/
-
-(function(){
-	
-})();
-
-$("a.btn").on('click', function(){
-	confirm('ajax0 ...');
-	$("div#div1").css('background-color', "yellow");
-	      /*$("div#div1").html(result);*/
-		confirm('ajax1 ...');
- 		$("div#div1").load("demo_test.txt");
-
-        });
-
-
-$('th#click').on('click', function(){
-	/*confirm('click ...');*/
-	$("div#div1").css('background-color', "yellow");
-	$("div#div1").load("demo_test.txt");
-
-	
-
-});
 
 $('input#search').on('click', function(){
 	confirm('click ...');
@@ -29,10 +5,9 @@ $('input#search').on('click', function(){
 	
 	 $.ajax({url:"fetch.php", 
 		method:"POST", 
-		data:{surname:"fgffgf"},
+		data:{dataValue:"retrieved using php super globals"},
 		dataType:"JSON", 	 	
 		success: function(result){
            	 $("div#div1").html(result);
-		confirm('click ..dsds.');
         }});
 });
