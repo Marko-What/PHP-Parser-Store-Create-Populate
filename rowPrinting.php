@@ -16,10 +16,7 @@ if(mysqli_connect_errno()){ //it return null or error number
 	function itemsRows(){
 	
 	$query = "SELECT * ";
-	$query .= "FROM items ";
-	
-		
-	 		
+	$query .= "FROM items ";	
 	
 	global $connection;
 	$result = mysqli_query($connection, $query);
