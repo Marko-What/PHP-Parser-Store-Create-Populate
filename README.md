@@ -11,6 +11,6 @@ Generate corresponding fakeName users related to each single BuyerId unique valu
 Run the rowPrinting.php script to test out if the values does exist in a database.
 
 If conditionals in use of to check out user interaction with the select html element.
-Name reference to retrive the result. Wrapped functionality sql queries to a database.
+Name reference to retrieve the result. Wrapped functionality sql queries to a database.
 
- Datatables and pagination using external plugin.
+Datatables and pagination using external plugin.
