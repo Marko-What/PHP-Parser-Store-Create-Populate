@@ -19,21 +19,27 @@ if(mysqli_connect_errno()){ //it return null or error number
 		/* sanitize fetched data */
 
 	/*$data1_dirty = $_POST['$data1'];*/
+	$data1_dirty = $data1;
 	$data1=filter_var($data1_dirty, FILTER_SANITIZE_STRING);
 
 	/*$data2_dirty = $_POST['$data2'];*/
+	$data2_dirty = $data2;
 	$data2=filter_var($data2_dirty, FILTER_SANITIZE_STRING);
 
 	/*$data3_dirty = $_POST['$data3'];*/
+	$data3_dirty = $data3;
 	$data3=filter_var($data3_dirty, FILTER_SANITIZE_STRING);
 
 	/*$data4_dirty = $_POST['$data4'];*/
+	$data4_dirty = $data4;	
 	$data4=filter_var($data4_dirty, FILTER_SANITIZE_STRING);
 
 	/*$data5_dirty = $_POST['$data5'];*/
+	$data5_dirty = $data5;
 	$data5=filter_var($data5_dirty, FILTER_SANITIZE_INTEGER);
 
 	/*$data6_dirty = $_POST['$data6'];*/
+	$data6_dirty = $data6;
 	$data6=filter_var($data6_dirty, FILTER_SANITIZE_STRING);
 
 		
