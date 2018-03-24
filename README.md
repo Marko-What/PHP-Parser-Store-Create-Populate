@@ -1,4 +1,4 @@
-                                                Simple PHP Parser 
+                                                 PHP Parser 
                               Store, Create and Populate, Datatables and pagination
 										
 
